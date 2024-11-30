@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Get in touch with Navpreet through the contact form or reach out using the details provided.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Navpreet Site</title>
+  <link rel="stylesheet" href="../css/index.css"> <!-- Relative path corrected -->
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="title">Navpreet Site</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../skills/index.html">Skills</a>
+      <a href="../contact/index.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h1>Contact</h1>
+        <p>If you'd like to get in touch, please fill out the form below or email me directly.</p>
+      </header>
+      <section>
+        <form action="/submit-form" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br><br>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Navpreet. All Rights Reserved. | <a href="../index.html">Home</a></p>
+  </footer>
+</body>
+</html>
